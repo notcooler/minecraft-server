@@ -11,7 +11,7 @@ services:
       MAX_MEMORY: 12G
       TYPE: FABRIC
       VERSION: 1.18.2
-      MODRINTH_PROJECTS: "fabric-api, macaws-stairs, macaws-fences-and-walls, macaws-furniture, macaws-windows, macaws-doors, chipped, travelersbackpack, supplementaries, rei, harvest-with-ease, beautify, connectiblechains, naturalist, advanced-netherite, biomes-in-jars, terralith, moogs-voyager-structures, towns-and-towers, ct-overhaul-village, repurposed-structures-fabric"
+      MODRINTH_PROJECTS: "fabric-api, macaws-stairs, macaws-fences-and-walls, macaws-furniture, macaws-windows, macaws-doors, chipped, travelersbackpack, rei, harvest-with-ease, beautify, connectiblechains, naturalist, advanced-netherite, biomes-in-jars, terralith, moogs-voyager-structures, towns-and-towers, ct-overhaul-village, repurposed-structures-fabric"
       MODRINTH_DOWNLOAD_DEPENDENCIES: required
     volumes:
       - ./data:/data
