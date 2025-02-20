@@ -9,6 +9,6 @@ services:
       EULA: "TRUE"
       TYPE: FABRIC
       VERSION: 1.18.2
-      MODRINTH_PROJECTS: "fallingtree"
+      # MODRINTH_PROJECTS: "fallingtree"
     volumes:
       - ./data:/data
