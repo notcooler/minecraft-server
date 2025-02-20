@@ -7,8 +7,10 @@ services:
       - "25565:25565"
     environment:
       EULA: "TRUE"
+      INIT_MEMORY: 4G
+      MAX_MEMORY: 12G
       TYPE: FABRIC
       VERSION: 1.18.2
-      # MODRINTH_PROJECTS: "fallingtree"
+      MODRINTH_PROJECTS: "travelersbackpack, chipped"
     volumes:
       - ./data:/data
