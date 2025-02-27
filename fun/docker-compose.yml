@@ -1,0 +1,16 @@
+services:
+  mc:
+    image: itzg/minecraft-server
+    tty: true
+    stdin_open: true
+    ports:
+      - "25565:25564"
+    environment:
+      EULA: "TRUE"
+      INIT_MEMORY: 4G
+      MAX_MEMORY: 13G
+      TYPE: FABRIC
+      FABRIC_LOADER_VERSION: 0.16.10
+      VERSION: 1.21.1
+    volumes:
+      - ./data:/data
