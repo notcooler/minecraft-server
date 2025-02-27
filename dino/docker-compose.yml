@@ -12,7 +12,5 @@ services:
       TYPE: FABRIC
       FABRIC_LOADER_VERSION: 0.15.0
       VERSION: 1.18.2
-      # MODRINTH_PROJECTS: "fabric-api, macaws-stairs, macaws-fences-and-walls, macaws-furniture, macaws-windows, macaws-doors, chipped, travelersbackpack, rei, connectiblechains, naturalist, advanced-netherite, biomes-in-jars, terralith, unfixed-seeds, moogs-voyager-structures, towns-and-towers, ct-overhaul-village, repurposed-structures-fabric"
-      # MODRINTH_DOWNLOAD_DEPENDENCIES: required
     volumes:
       - ./data:/data
