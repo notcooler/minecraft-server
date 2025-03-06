@@ -9,8 +9,8 @@ services:
       EULA: "TRUE"
       INIT_MEMORY: 4G
       MAX_MEMORY: 12G
-      # TYPE: FABRIC
-      # FABRIC_LOADER_VERSION: 0.16.10
+      TYPE: FABRIC
+      FABRIC_LOADER_VERSION: 0.16.10
       VERSION: 1.21.4
     volumes:
       - ./data:/data
